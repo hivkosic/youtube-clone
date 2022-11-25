@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    height: 200px;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 70px);
+    row-gap: 30px;
+    column-gap: 20px;
+    background-color: deepskyblue;
+    height: 300px;
+    padding: 20px;
+}
+
+.navigation__link{
+    background-color: yellow;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navigation__link--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__link--orange{
+    background-color: orange;
+}
