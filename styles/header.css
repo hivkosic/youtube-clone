@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(228,228,228);
+    height: 55px;
+    background-color: white;
 }
 
 .header__left {
@@ -82,10 +89,4 @@
     margin-right: 20px;
 } 
 
-.h-24px{
-    height: 24px;
-}
-
-.h-32px{
-    height: 32px;
-}
+.
