@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* body div div div {
+    color: red;
+}
+
+.card__body{
+    color: green;
+}
+
+div {
+    color: yellow;
+}
+
+#first {
+    color: blue;
+} */
+
+/* .card .yellow{
+    color: yellow;
+} */
+
+/* div div > div {
+    color: red;
+} */
+
+/* .card__body :first-child {
+    color: blue;
+}
+
+.card__header--yellow{
+    color: yellow;
+} */
+
+.btn {
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s box-shadow;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.75);
+}

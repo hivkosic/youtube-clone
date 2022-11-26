@@ -1,185 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>YouTube</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css"/>
-    <link
-      rel="shortcut icon"
-      href="./images/favicon/youtube.ico"
-      type="image/x-icon"
-    />
-  </head>
 
-  <body style="height:3000px">
+<head>
+  <title>YouTube</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="./images/favicon/youtube.ico" type="image/x-icon" />
+</head>
 
 
-    <header class="header">
-      <section class="header__left">
-        <img class="header__left__menu" src="./images/icons/hamburger-menu.svg" alt="">
-        <img class="header__left__logo" src="./images/icons/youtube-logo.svg" alt="">
-      </section>
-      <section class="header__middle">
-        <input class="header__middle__input" type="text" placeholder="Search">
-        
-        <button class="header__middle__search-btn">
-          <img class="header__middle__search-btn__icon" src="./images/icons/search.svg" alt="">
-        </button>
-        <button class="header__middle__voice-search-btn">
-          <img class="header__middle__voice-search-btn__icon" src="./images/icons/voice-search-icon.svg" alt="">
-        </button>
-        
-      </section>
-      <section class="header__right">
-        <div class="header__right__upload"> 
-          <img class="header__right__upload__icon h-24px" src="./images/icons/upload.svg" alt="">  
+<body style="height:3000px">
+
+  <header class="header">
+    <section class="header__left">
+      <img class="header__left__menu" src="./images/icons/hamburger-menu.svg" alt="">
+      <img class="header__left__logo" src="./images/icons/youtube-logo.svg" alt="">
+    </section>
+
+    <section class="header__middle">
+      <input class="header__middle__input" type="text" placeholder="Search">
+      <button class="header__middle__search-btn">
+        <img class="header__middle__search-btn__icon" src="./images/icons/search.svg" alt="">
+      </button>
+      <button class="voice-search-btn">
+        <img class="voice-search-btn__icon" src="./images/icons/voice-search-icon.svg" alt="">
+      </button>
+    </section>
+
+    <section class="header__right">
+        <img class="h-24px" src="./images/icons/upload.svg" alt="">
+        <img class="h-24px" src="./images/icons/youtube-apps.svg" alt="">
+        <img class="h-24px" src="./images/icons/notifications.svg" alt="">
+        <img class="h-32px" src="./images/channel-pictures/my-channel.png" alt="">
+    </section>
+  </header>
+
+
+  <nav class="nav">
+    <a href="#">
+      <img class="h-24px" src="./images/icons/home.svg" alt="">
+      <span>home</span>
+    </a>
+
+    <a href="#">
+      <img class="h-24px" src="./images/icons/explore.svg" alt="">
+      <span>explore</span>
+    </a>
+
+    <a href="#">
+      <img class="h-24px" src="./images/icons/subscriptions.svg" alt="">
+      <span>subscriptions</span>
+    </a>
+
+    <a href="#">
+      <img class="h-24px" src="./images/icons/originals.svg" alt="">
+      <span>originals</span>
+    </a>
+
+    <a href="#">
+      <img class="h-24px" src="./images/icons/youtube-music.svg" alt="">
+      <span>youtube-music</span>
+    </a>
+
+    <a href="#">
+      <img class="h-24px" src="./images/icons/library.svg" alt="">
+      <span>library</span>
+    </a>
+  </nav>
+
+
+  <main class="video-grid">
+
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-1.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-1.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>Best Noise Canceling Headphones To Buy Early 2022</h4>
+          <p>Video Autor 1</p>
+          <p>1.2M views &middot months ago</p>
         </div>
-        <img class="header__right____apps h-24px " src="./images/icons/youtube-apps.svg" alt=""> 
-        <div class="header__right__notifications"> 
-          <img class="header__right____notifications h-24px" src="./images/icons/notifications.svg" alt="">  
+      </div>
+    </section>
+
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-2.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-2.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>50 cent life advice will leave you speachless (must watch)</h4>
+          <p>Video Autor 2</p>
+          <p>19M views &middot 4 years ago</p>
         </div>
+    </section>
 
-        <img class="header__right____current-users h-32px " src="./images/channel-pictures/my-channel.png" alt="">
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-3.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-3.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>Bla bla nešto</h4>
+          <p>Video Autor 3</p>
+          <p>1.2M views &middot months ago</p>
+        </div>
+      </div>
+    </section>
 
-      </section>
-    </header>
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-4.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-4.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>The pizza show: Naples,The Birthplace of Pizza</h4>
+          <p>Video Autor 4</p>
+          <p>2M views &middot 4 years ago</p>
+        </div>
+      </div>
+    </section>
 
-    <nav class="nav">
-  <a  href="#"> 
-    <img class="h-24px" src="./images/icons/home.svg" alt="">
-    <span>home</span>
-  </a>
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-5.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-5.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>lal lalall a</h4>
+          <p>Video Autor 5</p>
+          <p>200k views &middot 3 years ago</p>
+        </div>
+      </div>
+    </section>
 
-  <a  href="#"> 
-    <img class="h-24px" src="./images/icons/explore.svg" alt="">
-    <span>explore</span>
-  </a>
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-6.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-6.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>The Terrifying Truth About Video Game Reviewers</h4>
+          <p>Video Autor 6</p>
+          <p>19M views &middot 4 years ago</p>
+        </div>
+    </section>
 
-  <a  href="#"> 
-    <img class="h-24px" src="./images/icons/subscriptions.svg" alt="">
-    <span>subscriptions</span>
-</a>
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-7.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-7.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>Best Noise Canceling Headphones To Buy Early 2022</h4>
+          <p>Video Autor 7</p>
+          <p>2 M views &middot 5 months ago</p>
+        </div>
+      </div>
+    </section>
 
-  <a  href="#"> 
-    <img class="h-24px" src="./images/icons/originals.svg" alt="">
-    <span>originals</span>
-  </a>
+    <section class="video-preview">
+      <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-8.webp" alt="">
+      <div class="video-preview__info">
+        <img class=video-preview__info__avatar src="./images/channel-pictures/channel-8.png" alt="">
+        <div class=video-preview__info__text>
+          <h4>bla bla bla</h4>
+          <p>Video Autor 8</p>
+          <p>19M views &middot 4 years ago</p>
+        </div>
+      </div>
+    </section>
 
-  <a  href="#"> 
-    <img class="h-24px" src="./images/icons/youtube-music.svg" alt="">
-    <span>youtube-music</span>
-</a>
+  </main>
 
-  <a  href="#"> 
-    <img class="h-24px" src="./images/icons/library.svg" alt="">
-    <span>library</span>
-  </a>
-  
-    </nav>
+</body>
 
-    <main class="video-grid"> 
-
-        <section class="video-preview">
-          <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-1.webp" alt="">
-                    <div class="video-preview__info">
-            <img class=video-preview__info__avatar src="./images/channel-pictures/channel-1.png" alt="">
-            <div class=video-preview__info__text>
-              <h4>Best Noise Canceling Headphones To Buy Early 2022</h4>
-              <p>Video Autor 1</p>
-              <p>1.2M views &middot months ago</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="video-preview">
-          <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-2.webp" alt="">
-          <div class="video-preview__info">
-            <img class=video-preview__info__avatar src="./images/channel-pictures/channel-2.png" alt="">
-            <div class=video-preview__info__text>
-              <h4>50 cent life advice will leave you speachless (must watch)</h4>
-              <p>Video Autor 2</p>
-              <p>19M views &middot 4 years ago</p>
-            </div>
-          </section>
-
-          <section class="video-preview">
-            <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-3.webp" alt="">
-            <div class="video-preview__info">
-              <img class=video-preview__info__avatar src="./images/channel-pictures/channel-3.png" alt="">
-              <div class=video-preview__info__text>
-                <h4>Bla bla nešto</h4>
-                <p>Video Autor 3</p>
-                <p>1.2M views &middot months ago</p>
-              </div>
-            </div>
-          </section>
-  
-          <section class="video-preview">
-            <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-4.webp" alt="">
-            <div class="video-preview__info">
-              <img class=video-preview__info__avatar src="./images/channel-pictures/channel-4.png" alt="">
-              <div class=video-preview__info__text>
-                <h4>The pizza show: Naples,The Birthplace of Pizza</h4>
-                <p>Video Autor 4</p>
-                <p>2M views &middot 4 years ago</p>
-              </div>
-            </div> 
-            </section>
-
-            <section class="video-preview">
-              <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-5.webp" alt="">
-                        <div class="video-preview__info">
-                <img class=video-preview__info__avatar src="./images/channel-pictures/channel-5.png" alt="">
-                <div class=video-preview__info__text>
-                  <h4>lal lalall a</h4>
-                  <p>Video Autor 5</p>
-                  <p>200k views &middot 3 years ago</p>
-                </div>
-              </div>
-            </section>
-    
-            <section class="video-preview">
-              <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-6.webp" alt="">
-              <div class="video-preview__info">
-                <img class=video-preview__info__avatar src="./images/channel-pictures/channel-6.png" alt="">
-                <div class=video-preview__info__text>
-                  <h4>The Terrifying Truth About Video Game Reviewers</h4>
-                  <p>Video Autor 6</p>
-                  <p>19M views &middot 4 years ago</p>
-                </div>
-              </section>
-    
-              <section class="video-preview">
-                <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-7.webp" alt="">
-                <div class="video-preview__info">
-                  <img class=video-preview__info__avatar src="./images/channel-pictures/channel-7.png" alt="">
-                  <div class=video-preview__info__text>
-                    <h4>Best Noise Canceling Headphones To Buy Early 2022</h4>
-                    <p>Video Autor 7</p>
-                    <p>2 M views &middot 5 months ago</p>
-                  </div>
-                </div>
-              </section>
-      
-              <section class="video-preview">
-                <img class=video-preview__thumbnail src="./images/thumbnails/thumbnail-8.webp" alt="">
-                <div class="video-preview__info">
-                  <img class=video-preview__info__avatar src="./images/channel-pictures/channel-8.png" alt="">
-                  <div class=video-preview__info__text>
-                    <h4>bla bla bla</h4>
-                    <p>Video Autor 8</p>
-                    <p>19M views &middot 4 years ago</p>
-                  </div>
-                </div> 
-                </section>
-          
-    </main>
-
-  </body>
 </html>

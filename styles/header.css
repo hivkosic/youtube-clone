@@ -14,12 +14,13 @@
 .header__left {
     display: flex;
     align-items: center;
-    height: 50px;
+    /* height: 50px; */
+    margin-bottom: 6px;
 }
 
 .header__left__menu {
-    margin-right: 24px;
-    margin-left: 24px;
+    margin: 0 24px;
+    
     height: 24px;  
 }
 
@@ -30,7 +31,7 @@
 .header__middle {
     display: flex;
     align-items: center;
-    flex: 1;
+    flex-grow: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;  
@@ -38,7 +39,7 @@
  
 
 .header__middle__input {
-    flex: 1;
+    flex-grow: 1;
     height: 36px;
     font-size: 16px;
     padding-left: 10px;
@@ -60,13 +61,6 @@
     border: 1px solid rgb(192,192,192);
 }
 
-.header__middle__voice-search-btn {
-    height: 40px;
-    width: 40px;
-    border: none;
-    border-radius: 20px;
-}
-
 .header__middle__search-btn__icon {
     margin-top: 4px;
     height: 25px;
@@ -74,7 +68,14 @@
     border: 1px solid rgb(192,192,192); */
 }
 
-.header__middle__voice-search-btn__icon{
+.voice-search-btn {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+.voice-search-btn__icon{
     height: 24px;
     margin-top: 4px;
 }
