@@ -38,9 +38,32 @@
     /* margin-right: 15px; */
 }
 
-.video-preview__thumbnail {
+.video-preview__thumbnail{
+    position: relative;
+}
+
+/* .video-preview__thumbnail {
+    position: relative;
+} */
+
+
+.video-preview__thumbnail__img  {
     width: 100%;
     margin-bottom: 12px;
+}
+
+.video-preview__thumbnail__times {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    font-family: Roboto, arial;
+    padding: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 2px;
 }
 
 .video-preview__info {
