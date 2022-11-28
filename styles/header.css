@@ -20,7 +20,6 @@
 
 .header__left__menu {
     margin: 0 24px;
-    
     height: 24px;  
 }
 
@@ -37,7 +36,6 @@
     max-width: 500px;  
 }
  
-
 .header__middle__input {
     flex-grow: 1;
     height: 36px;
@@ -49,16 +47,37 @@
     width: 0;
 }
 
+
 .header__middle__input::placeholder{
     font-size: 16px;  
 }
 
-.header__middle__search-btn{
+.header__middle__search-btn {
+    position: relative;
+    display: inline block;
     height: 40px;
     width: 66px;
     margin-left: -1px;
     margin-right: 10px;
     border: 1px solid rgb(192,192,192);
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    font-size: 12px;
+    margin: 3px;
+    padding: 4px 8px;
+    border-radius: 2px;
+    background-color: gray;
+    color:white;
+    z-index: 1;
+    font-family: Roboto, Arial;
+    white-space: nowrap;
+}
+
+.header__middle__search-btn:hover .tooltip{
+    visibility: visible;
 }
 
 .header__middle__search-btn__icon {
@@ -69,10 +88,15 @@
 }
 
 .voice-search-btn {
+    position: relative;
     height: 40px;
     width: 40px;
     border: none;
     border-radius: 20px;
+}
+
+.voice-search-btn:hover .tooltip{
+    visibility: visible;
 }
 
 .voice-search-btn__icon{
@@ -81,6 +105,7 @@
 }
 
 .header__right {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,4 +115,20 @@
     margin-right: 20px;
 } 
 
-.
+.header__right__icon:hover .tooltip{
+    visibility: visible;
+}
+
+.notification-number{
+    position: absolute;
+    top: 5px;
+    right: 52px;
+    border: 1px solid red;
+    padding: 2px 5px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1;
+    color: white;
+    font-size: 11px;
+}
+
