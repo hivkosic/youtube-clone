@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
     height: 200px;
 }
 
-.navigation{
+.navigation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 70px);
@@ -14,19 +14,19 @@ body{
     padding: 20px;
 }
 
-.navigation__link{
+.navigation__link {
     background-color: yellow;
     font-size: 40px;
     font-family: sans-serif;
     text-decoration: none;
 }
 
-.navigation__link--flex{
+.navigation__link--flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navigation__link--orange{
+.navigation__link--orange {
     background-color: orange;
 }
